@@ -12,4 +12,5 @@ Welcome to my EP2 lecture notes.
 ## Links
 
 [[Entropy]]
+[[EP2 LN]]
 [[Gauss Law]]
