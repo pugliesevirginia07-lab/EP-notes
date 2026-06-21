@@ -1,6 +1,3 @@
-# Chapter 1 : Special relativity
-((WRITE EVERYTHING))
-
 # Chapter 2 : Thermodynamics
 
 (equipartition theorem (degrees of freedom))
@@ -45,7 +42,7 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
 > [!abstract] Equation of state
 > An equation of state would be any proposed relation between $P$, $V$ and $T$ (substance's state variables, which only depend on the equilibrium state of the system).
 
-- Thermal expansion coefficient 
+Thermal expansion coefficient 
 	$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
 - Linear thermal expansion coefficient
 	$$\alpha = \frac{\frac{\Delta L}{L}}{\Delta T}$$

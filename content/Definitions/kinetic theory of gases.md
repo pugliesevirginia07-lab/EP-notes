@@ -4,14 +4,16 @@ This theory uses the collisions between the particles and the container to expla
 
 The basic version of the model describes and ideal gas, with perfectly elastic collisions as the only interaction between the particles, much smaller than the average distance apart.
 
-#### Important formulas
+#### Formulas
 
-$$ pV= \frac{1}{3}Nm \braket{v^2(T)}$$
-describes the pressure from molecular collisions with $p$ as pressure, $V$ as volume, $N$ as number of particles, $m$ as particle's mass and $v$ as the particle's velocity.
+>$$ pV= \frac{1}{3}Nm \braket{v^2(T)}$$
+	describes the pressure from molecular collisions with $p$ as pressure, $V$ as volume, $N$ as number of particles, $m$ as particle's mass and $v$ as the particle's velocity.
+>
 
-$$\braket{E_k}=\frac{3}{2}k_B T$$
-describes the average translational kinetic energy, with $k_B$ as the Boltzmann's constant. 
+>$$\braket{E_k}=\frac{3}{2}k_B T$$
+	describes the average translational kinetic energy, with $k_B$ as the Boltzmann's constant. 
+>
 
-$$v_{rms}=\sqrt{\frac{3k_b T}{m}}=\sqrt{\frac{3RT}{M}}$$
-describes the root-mean-square speed. With higher $T$ we get faster molecules, as well as with bigger $M$ we get slower molecules.
-
+>$$v_{rms}=\sqrt{\frac{3k_b T}{m}}=\sqrt{\frac{3RT}{M}}$$
+	describes the root-mean-square speed. With higher $T$ we get faster molecules, as well as with bigger $M$ we get slower molecules.
+>
