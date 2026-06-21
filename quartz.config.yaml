@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: 
+  baseUrl: pugliesevirginia07-lab.github.io/EP-notes
   ignorePatterns:
     - private
     - templates
