@@ -15,14 +15,14 @@ Einstein-Stokes equation
 
 ## 2. Heat, temperature and ideal gas law
 
-> [!abstract] Thermal equilibrium
+> [!abstract]+ Thermal equilibrium
 > After two objects have been in contact long enough, they reach a thermal equilibrium, when they have the same temperature. There is no heat flow between both of the systems.
 > 
 >  The relaxation time is the time required for a system to reach the thermal equilibrium.
 >  
 >  We assume the system is isolated, the energy stays inside of the system and it has unlimited time to reach the thermal equilibrium.
 
->[!abstract] Temperature ($T$)
+>[!abstract]+ Temperature ($T$)
 >The temperature is a measure of the tendency of an object to spontaneously give up energy to its surroundings.
 >
 >When two objects are in thermal contact, the hotter object tends to transfer energy to the colder one.
@@ -31,38 +31,42 @@ From the [[kinetic theory of gases]], the absolute temperature of a gas is propo
 
 The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). At absolute zero a system reaches its lowest possible energy state. Quantum systems generally retain zero-point motion because of the uncertainty principle.
 
-> [!abstract] Thermal energy
+> [!abstract]+ Thermal energy
 > The thermal energy refers to the internal energy present in a system due to its temperature, hence associated to the random motion of the gas molecules. 
 
-> [!abstract] Heat ($Q$)
+> [!abstract]+ Heat ($Q$)
 > Heat is any spontaneous flow of energy, from one object to another, caused by a difference in temperature between the objects.
 > 
 > The transfer can be realized fundamentally by conduction, convection or/and radiation.
 
-> [!abstract] Equation of state
+> [!abstract]+ Equation of state
 > An equation of state would be any proposed relation between $P$, $V$ and $T$ (substance's state variables, which only depend on the equilibrium state of the system).
 
-Thermal expansion coefficient 
-	$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
-- Linear thermal expansion coefficient
-	$$\alpha = \frac{\frac{\Delta L}{L}}{\Delta T}$$
-- Ideal gas law
-	$$PV=nRT$$
-	with $P$ as pressure, $V$ as volume, $n$ as number of moles, $R=8.31 \frac{J}{mol·K}$ and $T$ as temperature.
-	
-	- Assumptions
-		- Molecules are point particles
-		- There are no intermolecular forces
-		- All collisions are elastic
-		- Large intermolecular spacing
-		- Low density
-		
-		Fails at lower temperatures or higher pressures (we must count the intermolecular forces and the molecular size).
-- Van der Waals equation
-	$$ (P+\frac{an^2}{V^2})(V-nb^2)=nRT$$
-	with $a$ and $b$ as constants, they correct pressure and volume, respectively. 
-	
-	This equation works as a corrected model for real gases (adding new terms for molecular size and intermolecular attractions).
+> [!multi-column]
+>
+>>[!example]+ Thermal expansion coefficient
+>>$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
+>
+>>[!example]+ Linear thermal expansion coefficient
+ >>$$\alpha = \frac{\frac{\Delta L}{L}}{\Delta T}$$
+ 
+> [!example] Ideal gas law
+> $$\large PV=nRT$$
+> with with $P$ as pressure, $V$ as volume, $n$ as number of moles, $R=8.31 \frac{J}{mol·K}$ and $T$ as temperature.
+>> [!note]- Assumptions
+>> · Molecules are point particles
+>> · There are no intermolecular forces
+>> · All collisions are elastic
+>> · Large intermolecular spacing
+>> · Low density
+>
+> Fails at lower temperatures or higher pressures (we must count the intermolecular forces and the molecular size).
+
+>[!example] Van der Waals equation
+> $$(P+\frac{an^2}{V^2})(V-nb^2)=nRT$$
+>with $a$ and $b$ as constants, they correct pressure and volume, respectively. 
+>
+>This equation works as a corrected model for real gases (adding new terms for molecular size and intermolecular attractions).
 
 
 ==AFTER THIS REVISE AND LOOK AT EVERYTHING, QUICK NOTES==
@@ -107,5 +111,5 @@ Fundamental thermodynamic relation
 
 
 
-(keep actualising experiments, always)
+
 [[Interesting experiments in thermodynamics]]

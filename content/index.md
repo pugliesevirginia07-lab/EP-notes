@@ -8,23 +8,29 @@
 
 ## Main chapters
 
-> [!tip] [[Special relativity]]
+> [!danger] [[Special relativity]]
 > · Problem of simultaneity
 > · Lorentz length contraction
 > · Time dilation
 > · Time paradox
 > · Relativistic kinetic energy
 
->[!tip] [[Thermodynamics]]
+>[!danger] [[Thermodynamics]]
 > Not finished yet.
+> 
+> · Central limit theorem and Brownian motion and diffusion
+> · Heat, temperature and ideal gas law
+> · Entropy and irreversibility
+> · Ensembles and Boltzmann statistics
+> · Laws of thermodynamics
 > [[Interesting experiments in thermodynamics]]
 
 >[!failure] Electro
 > Not created yet.
- 
+
 ## Definitions and concepts
 [[Kinetic theory of gases]]
-[[Michelson-Morley experiment]]
+[[Nuclear reactions]]
 
 ## Homework
-Discussion about homework problems
+(Future discussion about homework problems, if there's time)
