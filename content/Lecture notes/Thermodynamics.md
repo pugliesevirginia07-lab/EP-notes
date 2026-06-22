@@ -42,7 +42,7 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
 > [!abstract]+ Equation of state
 > An equation of state would be any proposed relation between $P$, $V$ and $T$ (substance's state variables, which only depend on the equilibrium state of the system).
 
-> [!multi-column]
+> [!multi-column] Expansion coefficients
 >
 >>[!example]+ Thermal expansion coefficient
 >>$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
@@ -52,18 +52,24 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
  
 > [!example] Ideal gas law
 > $$\large PV=nRT$$
-> with with $P$ as pressure, $V$ as volume, $n$ as number of moles, $R=8.31 \frac{J}{mol·K}$ and $T$ as temperature.
+> 
+> with $P$ as pressure, $V$ as volume, $n$ as number of moles, $R=8.31 \frac{J}{mol·K}$ and $T$ as temperature.
 >> [!note]- Assumptions
 >> · Molecules are point particles
+>> 
 >> · There are no intermolecular forces
+>> 
 >> · All collisions are elastic
+>> 
 >> · Large intermolecular spacing
+>> 
 >> · Low density
 >
 > Fails at lower temperatures or higher pressures (we must count the intermolecular forces and the molecular size).
 
 >[!example] Van der Waals equation
 > $$(P+\frac{an^2}{V^2})(V-nb^2)=nRT$$
+> 
 >with $a$ and $b$ as constants, they correct pressure and volume, respectively. 
 >
 >This equation works as a corrected model for real gases (adding new terms for molecular size and intermolecular attractions).
@@ -103,6 +109,7 @@ Laws of thermodynamics
 - $E=constant$
 - $\Delta S \geq 0$ 
 - $T=0 \rightarrow E_{kin}=0$
+
 Thermodynamic potential (internal energy, Helmholtz free energy, enthalpy, Gibbs free energy and grand potential)
 Principle of minimal energy
 Fundamental thermodynamic relation

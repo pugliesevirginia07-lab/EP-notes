@@ -8,14 +8,14 @@
 
 ## Main chapters
 
-> [!danger] [[Special relativity]]
+> [!danger]- [[Special relativity]]
 > · Problem of simultaneity
 > · Lorentz length contraction
 > · Time dilation
 > · Time paradox
 > · Relativistic kinetic energy
 
->[!danger] [[Thermodynamics]]
+>[!danger]- [[Thermodynamics]]
 > Not finished yet.
 > 
 > · Central limit theorem and Brownian motion and diffusion
@@ -25,7 +25,7 @@
 > · Laws of thermodynamics
 > [[Interesting experiments in thermodynamics]]
 
->[!failure] Electro
+>[!failure]- Electro
 > Not created yet.
 
 ## Definitions and concepts
