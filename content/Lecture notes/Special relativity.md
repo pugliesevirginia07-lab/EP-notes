@@ -27,11 +27,15 @@ The Lorentz transformations are based in the Lorentz factor, which determines ho
 - When $\large v \rightarrow c$, $\large \gamma \rightarrow \infty$. Where the relativistic effects become more important, meaning that the objects require infinite energy to accelerate further.
 
 To change from the inertial frame $S$ (stationary) to $S'$ (moving with velocity $v$ along the x-axis) with the same origin $t=t'=0$, we have:
+
 $$ 
 x'=\gamma (x-vt)\ , \qquad t'=\gamma (t-\frac{vx}{c^2})
 $$
+
 With $y'=y$ and $z'=z$. To transform back to $S$ from $S'$, we apply:
+
 $$ x=\gamma (x'+vt') \; , \qquad t=\gamma (t'+\frac{vx'}{c^2})$$
+
 You can see they all converge to Galilei transformations when $v \ll c \Rightarrow \gamma \approx 1$. 
 
 
@@ -46,21 +50,21 @@ To show that two events are simultaneous or not, we use Minkowski spacetime diag
 ![[Spacetime diagram.png]]
 >[!multi-column] Description of spacetime diagrams
 >> [!note]- First diagram: observer at rest
->>>A light pulse is emitted from the midpoint $B$ of a stationary object. Since the distances $AB$ and $BC$ are equal and light propagates with the same speed $C$ in both directions, the pulses reach the ends $A$ and $C$ simultaneously. This is represented by the events $A_1$​ and $C_1$​ lying on the same horizontal line$T=T_1$. Therefore, an observer at rest with the object concludes that both events occur at the same time.
+>>>A light pulse is emitted from the midpoint $B$ of a stationary object. Since the distances $AB$ and $BC$ are equal and light propagates with the same speed $C$ in both directions, the pulses reach the ends $A$ and $C$ simultaneously. This is represented by the events $A_1$​ and $C_1$​ lying on the same horizontal line $T=T_1$. Therefore, an observer at rest with the object concludes that both events occur at the same time.
 >
 >>[!note]-  2nd diagram: Moving Observer
->>>For an observer moving relative to the object, the same physical events are described in a different reference frame. The object's world-tube becomes tilted, and the lines of simultaneity are no longer horizontal. The red line represents $t'=const$, i.e., events that are simultaneous in the moving frame. Since $A'_1$ and $C'_1$​ do not lie on the same simultaneity line, the moving observer concludes that the light reaches one end before the other. 
+>>>For an observer moving relative to the object, the same physical events are described in a different reference frame. The object's world-tube becomes tilted, and the lines of simultaneity are no longer horizontal. The red line represents $t'=\text{const.}$, i.e., events that are simultaneous in the moving frame. Since $A'_1$ and $C'_1$​ do not lie on the same simultaneity line, the moving observer concludes that the light reaches one end before the other. 
 >>
 
 The worldline for a moving object is a diagonal (for constant velocity), which creates a light line when $v=c$. the combination of all light lines form the light cone, all worldlines should be contained inside of it, any world line outside of the light cone is not possible, because it will mean that $v>c$. Hence, if we represent the light line with a slope=1, the world lines must have a slope smaller than 1. The angle $\alpha_1$ and $\alpha_2$ correspond to $\alpha=\arctan \frac{v}{c}$.
 
 >[!multi-column] Lightcone
 >>![[Lightcone.png|250]]
->
->> [!note] Description
->>> · In a 3D spacetime diagram ($x,y,ct$) the surfaces $x^2+y^2=c^2t^2$ form a cone named light-cone, where past and future are inside of it.
->>> 
->>> · Two events can be causally connected if both points lie in one of the light cones. Signals and interactions can be interchanged between objects in these points.
+>>
+>>
+>> · In a 3D spacetime diagram ($x,y,ct$) the surfaces $x^2+y^2=c^2t^2$ form a cone named light-cone, where past and future are inside of it.
+>>
+>> · Two events can be causally connected if both points lie in one of the light cones. Signals and interactions can be interchanged between objects in these points.
 
 
 ### Spacetime interval
@@ -90,6 +94,7 @@ Lorentz contractions are symmetric and do not depend on the sign of the velocity
 
 >[!abstract] $\Delta t$ in different systems
 >For $O$ in $S$: $\Delta t= t_2-t_1 \qquad \qquad$
+>
 >For $O^`$ in $S'$: $\Delta t'=t'_2 - t'_1= \gamma \Delta t$
 
 We can see that $\Delta t'>\Delta t$ for $\gamma >1$. Meaning that moving clocks run slower, similar to what happens in the length contraction. 

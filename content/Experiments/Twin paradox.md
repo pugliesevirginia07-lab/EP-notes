@@ -2,10 +2,10 @@ A "gedanken-experiment" involving identical twins, one of whom makes a journey i
 
 The travelling twin's trajectory involves two different inertial frames (outbound and inbound journey).
 
->[!multi-column] Multi-column
+>[!multi-column] Twin paradox spacetime diagram
 >>![[Twin's paradox spacetime diagram.png|250]]
->
->> [!note]   Twin paradox spacetime diagram
+>>
+>>
 >> The turn around acceleration (non-inertial moment) breaks the symmetry between the twins, making travelling twin's frame non-inertial.
  >>
  >>Doppler effect applies in this case:
