@@ -4,7 +4,7 @@
 >Experimental Physics 2 notes for IPSP.
 >This website contains notes about the topics discussed in the lectures, definitions, experiments, and homework material. 
 >
->Last time updated: 21.06.26
+>Last time updated: 23.06.26
 
 ## Main chapters
 

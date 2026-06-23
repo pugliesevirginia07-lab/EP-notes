@@ -46,7 +46,9 @@ The **Brownian motion** is the random motion of particles due to their kinetic e
 >>[!note] Properties
 >>1. Starts at 0:  $W_0=0$.
 >>2. Independent increments with gaussian distribution:
+>>
 >>$$W(t+\Delta t)-W(t) \sim N(0, \Delta t)$$
+>>
 >> 3. Continuous but not differentiable.
 >
 > Mean: 
@@ -120,6 +122,7 @@ The diffusion coefficient $D$ measures how quickly the particles spread, for lar
 >[!example] Einstein-Stokes equation
 >
 > $$D=\frac{k_BT}{6\pi\eta R}$$
+> 
 > with viscosity coefficient $\eta$ and particle radius' $R$.
 >
 > The momentum relaxation time would correspond to 
