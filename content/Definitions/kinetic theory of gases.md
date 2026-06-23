@@ -6,17 +6,21 @@ The basic version of the model describes and ideal gas, with perfectly elastic c
 
 #### Formulas
 
+>[!example] Pressure from molecular collisions
+>
 >$$ pV= \frac{1}{3}Nm \braket{v^2(T)}$$
 >
-	describes the pressure from molecular collisions with $p$ as pressure, $V$ as volume, $N$ as number of particles, $m$ as particle's mass and $v$ as the particle's velocity.
+>Describes the pressure from molecular collisions, with $p$ as pressure, $V$ as volume, $N$ as number of particles, $m$ as particle's mass and $v$ as the particle's velocity.
 >
 
+>[!example] Average translational kinetic energy
+>
 >$$\braket{E_k}=\frac{3}{2}k_B T$$
 >
-	describes the average translational kinetic energy, with $k_B$ as the Boltzmann's constant. 
->
 
+>[!example] Root-mean-square speed
+>
 >$$v_{rms}=\sqrt{\frac{3k_b T}{m}}=\sqrt{\frac{3RT}{M}}$$
 >
-	describes the root-mean-square speed. With higher $T$ we get faster molecules, as well as with bigger $M$ we get slower molecules.
+>With higher $T$ we get faster molecules, as well as with bigger $M$ we get slower molecules.
 >

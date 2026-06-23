@@ -21,7 +21,7 @@ To preserve the invariance of the speed of light, we must replace the Galilean t
 The Lorentz transformations are based in the Lorentz factor, which determines how important relativistic effects are.
 
 >[!example] Lorentz factor
->>$$\gamma=\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
+>$$\gamma=\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}$$
 
 - When $\large v\ll c$,  $\large \gamma  \approx 1$. Hence, it will be subject to classical mechanics effects.
 - When $\large v \rightarrow c$, $\large \gamma \rightarrow \infty$. Where the relativistic effects become more important, meaning that the objects require infinite energy to accelerate further.
@@ -88,6 +88,7 @@ Lorentz contractions are symmetric and do not depend on the sign of the velocity
 
 ## 5. Time dilatation
 
+>[!abstract] $\Delta t$ in different systems
 >For $O$ in $S$: $\Delta t= t_2-t_1 \qquad \qquad$
 >For $O^`$ in $S'$: $\Delta t'=t'_2 - t'_1= \gamma \Delta t$
 

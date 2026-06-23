@@ -6,6 +6,15 @@
 >
 >Last time updated: 21.06.26
 
+
+
+
+!!!! SOLVE MULTI COLUMN PROBLEMS AND CALLOUTS SPACES!!!!
+
+
+
+
+
 ## Main chapters
 
 > [!danger]- [[Special relativity]]
