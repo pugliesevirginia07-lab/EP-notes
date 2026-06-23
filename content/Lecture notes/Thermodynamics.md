@@ -12,17 +12,21 @@
 >
 >>[!abstract]- Binomial distribution
 >>
->> We define $X$ as the number of successes in $n$ trials, and $p$ as the success probability. Then we can get the probability $P$ for a given $X$: 
+>> We define $X$ as the number of successes in $n$ trials, and $p$ as the success probability. Then we can get the probability $P$ for a given $X$:
+>> 
 >> $$P(X=x)= \begin{pmatrix} n \\X \end{pmatrix}p^X(1-p)^{n-K}$$
 >>
 >>With the combinatorial $\frac{n!}{X!(n-X)!}$ We can also get the probability for an interval of successes ($X\leq x$ or $X\geq x$). 
 >
 >
 >> [!abstract]- Gaussian distribution
+>> 
 >> When we have a large $n$ ($n, \ np, \ nq \gg 1$, with $q=(1-p)$), the binomial distribution approximates to a Gaussian:
+>> 
 >>  $$ P(X)=\frac{1}{\sqrt{2 \pi np}}e^{-\frac{(X-np)^2}{2npq}}$$
 >>  
 >> $$ P(x)=\frac{1}{\sqrt{2\pi \sigma^2}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+>> 
 >> With mean $\mu$ and variance $\sigma^2$.
 >> 
 >> ![[Pasted image 20260622234102.png|200]]
@@ -65,18 +69,22 @@ $$\langle x^2(t)\rangle=2Dt$$
 >
 >![[Pasted image 20260623005944.png]]
 >>[!abstract]- Normal diffusion
+>>
 >> It corresponds to a Brownian motion, with $\alpha =1$.
 >> 
 >> $$\langle r^2(t)\rangle=2Dt$$ 
 >
 >> [!abstract]- Subdiffusion
+>> 
 >> The particles spread slower than Brownian motion, with $\alpha<1$.
 >> 
 >
 >>[!abstract]- Superdiffusion
+>>
 >> The particles spreads faster than Brownian motion, with $\alpha>1$.
 >
 >>[!abstract]- Corralled motion
+>>
 >> The particles move with constant velocity, with $\alpha=2$.
 >>
 >>$$\langle r^2(t)\rangle=v^2t^2$$
@@ -101,6 +109,7 @@ The **diffusion** is the spontaneous spreading of particles, where the molecules
 >
 >
 >>[!example]+ Fick's second law
+>>
 >> Shows how diffusion causes the concentration field to change with time $t$.
 >> 
 >> $$\frac{\partial\phi}{\partial t}=D\frac{\partial^2\phi}{\partial x^2}$$
@@ -115,7 +124,9 @@ The diffusion coefficient $D$ measures how quickly the particles spread, for lar
 >
 > The momentum relaxation time would correspond to 
 > $$\tau =\frac{m}{\gamma}$$
+> 
 > · For $t \ll \tau$: the particles still have some initial velocity, they follow a corralled motion.
+> 
 > · For $t \gg \tau$: the motion becomes diffusive (Brownian motion).
 
 ### Microstates, macrostates and phase space

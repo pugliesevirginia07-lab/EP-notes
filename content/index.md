@@ -6,32 +6,41 @@
 >
 >Last time updated: 21.06.26
 
-
-
-
-!!!! SOLVE MULTI COLUMN PROBLEMS AND CALLOUTS SPACES!!!!
-
-
-
-
-
 ## Main chapters
 
-> [!danger]- [[Special relativity]]
+> [!info]- [[Special relativity]]
+> 
 > · Problem of simultaneity
+> 
 > · Lorentz length contraction
+> 
 > · Time dilation
+> 
 > · Time paradox
+> 
 > · Relativistic kinetic energy
 
 >[!danger]- [[Thermodynamics]]
-> Not finished yet.
+> Not finished yet!
 > 
 > · Central limit theorem and Brownian motion and diffusion
+> 
 > · Heat, temperature and ideal gas law
-> · Entropy and irreversibility
-> · Ensembles and Boltzmann statistics
-> · Laws of thermodynamics
+> 
+> · (Entropy and irreversibility)
+> 
+> · (Ensembles and Boltzmann statistics)
+> 
+> · (Laws of thermodynamics)
+> 
+> · (Heat engines and efficiency)
+> 
+> · (Thermal conduction and thermal capacity)
+> 
+> · (Phase transitions and real gases)
+> 
+> · (Brownian motors and entropic forces)
+> 
 > [[Interesting experiments in thermodynamics]]
 
 >[!failure]- Electro
