@@ -207,34 +207,128 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
 ## 3. Entropy and irreversibility
 
 > [!abstract] Reversible process
->  (CONTINUE FROM HERE)
+>  A process that operates at equilibrium, where the entropy of the total idolated system is not changing $\Delta S=0$ (without increasing the heat-temperature ratio).
+>  
+>  The system returns to its original state (although, in practice, a perfect reversible process is not possible, heat cannot fully be converted to work and will always be lost to some degree).
 
-(179-182, 196-206, 245-246)
-Reversibility of processes 
-Reversible process
-Irreversible process
-Dissipation (also in diap. 245 and 246!!)
+>[!abstract] Irreversible process
+>A process that is not fully capable to return to its inital state, without expenditure of energy or restoring the environment to its own initial conditions.
 
-Entropy (Gibbs, includes non-equilibrium) definition 
-$$S=k_B \; ln (\Omega)$$
-(Thermodynamic definition for entropy in terms of heat and temperature)
-$$dS=\frac{\delta Q_{rev}}{T}$$
-Heat flow increases disorder, hence increases total entropy, moving it toward some more probable state.
+### Entropy
+
+We can define entropy as:
+- The measure of the number of microstates in a macrostate (number of ways in which a system may be arranged).
+- The amount of additional information needed to specify the exact physical state of a system.
+
+It depends only on the final and initial state (path independent).
+
+>[!example] Entropy
+>
+>$$\large S=-k_B\ln\Omega$$
+>
+>with $k_B$ as the Boltzmann's constant with $k_B=1'38065·10^{23} \; \frac{J}{K}$.
+>>[!example]- Gibbs entropy (includes non-equilibrium)
+>>
+>>$$ S=-k_B \sum_i p_i \ln p_i$$
+>>
+>>with $\sum_i p_i \ln p_i$ as the sum of all possible microstates and their probabilities.
+
+Related to this, we can discuss the heat flow. The heat flow increases disorder, hence the total entropy increases, moving it toward some more probable, balanced state. The heat flows from a hot to a cold reservoir statistically likely, spreading out energy and increasing entropy, occupying more microstates).
+
+>[!abstract] Dissipation
+>Result of an irreversible process in homogeneous thermodynamics systems, due to the conversion of energy into heat ($E_{mec_0}>E_{mec_f}$).
+>
+>Heat transfer is dissipative (entropy varies with temperature) and they also include also the friction and similar forces that lead into decoherency of energy.
+
 
 ## 4. Ensembles and Boltzmann statistics
-(diap 208-235+ lecture 7)
-Ensembles
-Microcanonical ensemble
-(Probability density function?)
-Maxwell-Boltzmann statistics
-Canonical ensemble
-Partition function
-Barometric formula (exponential atmosphere)
-Grand canonical ensemble
-Free energy (Gibbs, Helmholtz)
-(Chemical potential? )
 
-(Little section of quantum statistics??(Lecture 7))
+### Ensembles
+
+The ensembles are a study of thermodynamics concerned with systems which behave "static" (despite the motion of its internal parts) and can be described simply by macroscopically observable variables.
+
+A statistical ensemble is an idealization consisting of a large number of virtual copies of a system, each of which represents a possible state that the real system might be in. With other words, they describe the probability distribution for the state of a system.
+
+Although a mechanical system evolves over time, an ensemble does not necessarily have to evolve (it won't evolve if it equally contains all past and future phases of the system, in statistical equilibrium).
+
+>[!abstract]- Probability density function
+>An ensemble is represented by a joint probability density function:
+>
+>  $$ \rho (p_1, ..., p_n, q_1, ... , q_n)$$
+>  
+>  defined over the system's phase space, with $n$ general coordinates $q_1, ... , q_n$ and $n$ associated canonical momenta $p_1, ... , p_n$.
+>  
+
+>[!abstract]- Maxwell-Boltzmann statistics
+> By assumption, the combined system is isolated, so all microstates are equally probable.
+> 
+> $$ \frac{P(s1)}{P(s2)}=\frac{\Omega_R (s1)}{\Omega_R(s2)} $$
+> 
+> $Ω(s_i)$ describes the number of microstates available to the reservoir for each state $s_i$, and $P(s_i)$ as the probability that our system is in state $s_i$.
+> 
+> $$ \langle N_i \rangle = \frac{g_i}{e^{-(\epsilon_i - \mu)/kT}}= \frac{N}{Z} g_i c^{-\epsilon_i/kT}$$
+> 
+> with $Z=\sum_i g_i e^{-\epsilon_i / kT}$ as the partition function.
+
+>[!abstract] Free energy
+> The free energy determines the spontaneity of processes and the maximum useful work at constant $T$, as the internal energy $U$ doesn't account lose to heat.
+> >[!example]- Helmholtz free energy (constant V)
+> >  
+> >  $$ F=U-TS$$
+> > 
+> 
+> >[!example]- Gibbs free energy (constant P)
+> >
+> > $$G=H-TS$$
+> > 
+> > with $H=U+PV$
+
+
+The *microcanonical ensemble (N, V, E)* is used to represent the possible states of a mechanical system which has an exactly specified total energy, and all microstates are equally probable ($P=\frac{1}{\Omega}$). 
+
+- It is an isolated system with conservation of energy, and depends on the macroscopic variables N, V and E (total number of particles, volume and total energy in system, respectively). 
+
+
+The *canonical ensemble (N, V, T)* is a theoretical collection of identical, non-interacting systems, regulated by thermal equilibrium with a heat bath.
+
+- It is derived from the microcanonical ensemble, when a small system is part of a much larger, isolated system (microcanonical). In the limit of a large system (thermodynamic limit), the probability distribution of energy takes the form of the exponential function of Boltzmann's distribution ($P=e^{\frac{F-E}{kT}}$, with $F= U-TS$)
+- The system can exchange energy with the heat bath, the states of the system will differ in total energy. 
+- It depends on the macroscopic variables N, V and T.
+
+
+The *grand canonical ensemble ($\mu$, V, T)* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
+
+- The system is open, hence the system can exchange energy and particles with a reservoir.
+- It depends on the macroscopic variables $\mu$, V, T.
+
+>[!example]- Barometric formula
+>It shows how the pressure or the density of the air changes with altitude.
+>
+>$$P=\frac{\rho R^* T}{M}$$
+>$$P=P_0 e^{-\frac{Mgz}{R^*T}}$$
+>
+>with $M$ as the molar mass of Earth's air, $R^*$ as the universal gas constant for air ($R^* =8'3144598 \frac{N·m}{mol·K}$) and $z$ as the altitude.
+>
+
+
+### Chemical potential
+
+Form of a potential energy that can be absorbed or released during a chemical reaction, a phase transition and a change in the number of moles of a species.
+
+- In the chemical equilibrium, the total sum of chemical potential equals zero, due to the free energy being at its minimum.
+- Particles tend to move from higher to lower chemical potentials.
+
+$$
+\large dU=TdS-PdV+\sum_{i=1}^n \mu_i dN_i
+$$
+
+with $\mu_i=(\frac{\partial U}{\partial N_i})_{S,V,N_{j\neq i}}$ .
+
+///
+(Ensembles, ADD IMAGES)
+PROBABILITY DENSITY FUNCTION FOR MICROCANONICAL ensemble
+$$\rho= \frac{1}{h^n C}\frac{1}{W}f(\frac{H-E}{\omega})$$
+(Partition function, little section of quantum statistics??(Lecture 7)-- look at homeworks to decide)
 
 ## 5. Laws of thermodynamics
 (lecture 7+238-244)
