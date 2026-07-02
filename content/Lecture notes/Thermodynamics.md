@@ -1,5 +1,6 @@
 # Chapter 2 : Thermodynamics
 
+See [[Differentials]] and [[Thermodynamic variables]].
 ## 1. Central limit theorem and Brownian motion and diffusion
 
 ### Introduction
@@ -29,7 +30,7 @@
 >> 
 >> With mean $\mu$ and variance $\sigma^2$.
 >> 
->> ![[Pasted image 20260622234102.png|200]]
+>> ![[Gaussian distribution.png|200]]
 
 ### Central Limit Theorem and Brownian motion
 
@@ -69,7 +70,7 @@ $$\langle x^2(t)\rangle=2Dt$$
 >[!note] Types of motion from the MSD
 >In general, $\langle r^2(t)\rangle \propto t^\alpha$ .
 >
->![[Pasted image 20260623005944.png]]
+>![[Types of MSD.png]]
 >>[!abstract]- Normal diffusion
 >>
 >> It corresponds to a Brownian motion, with $\alpha =1$.
@@ -101,7 +102,7 @@ With mass $m$, friction term $-\gamma v$, representing the viscous drag, and ran
 The **diffusion** is the spontaneous spreading of particles, where the molecules in a gas or fluid move from a higher concentration to a lower concentration. It results in an eventual equalization of gas/fluid in the space and it is only reversible through external work.
 
 >[!multi-column] Fick's laws of diffusion
->>[!example]+ Fick's first law
+>>[!example]- Fick's first law
 >>
 >> Flux goes from regions of high concentration to regions of low concentration.
 >> 
@@ -110,7 +111,7 @@ The **diffusion** is the spontaneous spreading of particles, where the molecules
 >> with diffusion coefficient $D$ and concentration $\phi$.
 >
 >
->>[!example]+ Fick's second law
+>>[!example]- Fick's second law
 >>
 >> Shows how diffusion causes the concentration field to change with time $t$.
 >> 
@@ -139,6 +140,12 @@ The diffusion coefficient $D$ measures how quickly the particles spread, for lar
 
 - A **phase space** is a space where all possible states of a system are represented, each possible state corresponds to one unique point. Every degree of freedom of the system is represented as an axis of a multidimensional space, such as in the phase space trajectory (relating position and velocity).
 
+>[!example] Microstates for each macrostate
+>
+>$$ \Omega (n)=\begin{pmatrix}N\\n\end{pmatrix}=\frac{N!}{n!(N-n)!}$$
+>
+>with $n$ as the number of microstates in $N$ number of macrostates. The set of all possible configurations of the system as a phase space is $2^N$.
+
 >[!abstract]- Ergodic hypothesis
 > An isolated system in an equilibrium state, evolving in time, will pass through all the accessible microstates at the same recurrence rate, hence all accessible microstates are equally probable (fundamental assumption of statistical mechanics).
 > 
@@ -157,33 +164,23 @@ The diffusion coefficient $D$ measures how quickly the particles spread, for lar
 >The temperature is a measure of the tendency of an object to spontaneously give up energy to its surroundings.
 >
 >When two objects are in thermal contact, the hotter object tends to transfer energy to the colder one.
+>
 
 From the [[kinetic theory of gases]], the absolute temperature of a gas is proportional to the average translational kinetic energy of its molecules, the Boltzmann's constant is the conversion factor between these two.
 
 The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). At absolute zero a system reaches its lowest possible energy state. Systems' random motion in the zero-point energy never vanishes  because of the uncertainty principle (retaining always some kinetic energy, even at the lowest temperature).
 
 > [!abstract]+ Thermal energy
-> The thermal energy refers to the internal energy present in a system due to its temperature, hence associated to the random motion of the gas molecules. 
+> The thermal energy refers to the internal energy present (stored) in a system due to its temperature, hence associated to the random motion of the gas molecules. 
 
 > [!abstract]+ Heat ($Q$)
-> Heat is any spontaneous flow of energy, from one object to another, caused by a difference in temperature between the objects.
+> Heat is any spontaneous flow of energy (transfer), from one object to another, caused by a difference in temperature between the objects.
 > 
 > The transfer can be realized fundamentally by conduction, convection or/and radiation.
 >
 
 > [!abstract]+ Equation of state
 > An equation of state would be any proposed relation between $P$, $V$ and $T$ (substance's state variables, which only depend on the equilibrium state of the system).
-
-> [!multi-column] Expansion coefficients
->
->
->>[!example]+ Thermal expansion coefficient
->>
->>$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
->
->>[!example]+ Linear thermal expansion coefficient
->>
- >>$$\alpha = \frac{\frac{\Delta L}{L}}{\Delta T}$$
  
 > [!example] Ideal gas law
 > $$\large PV=nRT$$
@@ -206,15 +203,9 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
 
 ## 3. Entropy and irreversibility
 
-> [!abstract] Reversible process
->  A process that operates at equilibrium, where the entropy of the total idolated system is not changing $\Delta S=0$ (without increasing the heat-temperature ratio).
->  
->  The system returns to its original state (although, in practice, a perfect reversible process is not possible, heat cannot fully be converted to work and will always be lost to some degree).
-
->[!abstract] Irreversible process
->A process that is not fully capable to return to its inital state, without expenditure of energy or restoring the environment to its own initial conditions.
-
 ### Entropy
+
+Entropy tells us why energy spreads out, why some processes happen on their own, and why others do not.
 
 We can define entropy as:
 - The measure of the number of microstates in a macrostate (number of ways in which a system may be arranged).
@@ -226,12 +217,30 @@ It depends only on the final and initial state (path independent).
 >
 >$$\large S=-k_B\ln\Omega$$
 >
->with $k_B$ as the Boltzmann's constant with $k_B=1'38065·10^{23} \; \frac{J}{K}$.
+>with $k_B$ as the Boltzmann's constant with $k_B=1'38065·10^{23} \; \frac{J}{K}$ and $\Omega=\begin{pmatrix} N\\n \end{pmatrix}$ as the number of microstates $n$ in each macrostate $N$ (combinatorics). 
+>
+>May be interesting to know Stirling's approximation: $\ln (x!) \approx x \ln (x)-x$
 >>[!example]- Gibbs entropy (includes non-equilibrium)
 >>
 >>$$ S=-k_B \sum_i p_i \ln p_i$$
 >>
 >>with $\sum_i p_i \ln p_i$ as the sum of all possible microstates and their probabilities.
+
+
+> [!abstract] Reversible process
+>  A process that operates at equilibrium, where the entropy of the total idolated system is not changing $\Delta S=0$ (without increasing the heat-temperature ratio).
+>  
+>  The system returns to its original state (although, in practice, a perfect reversible process is not possible, heat cannot fully be converted to work and will always be lost to some degree).
+>  
+>  $$dS=\frac{\delta Q_{rev}}{T}$$
+>  
+
+>[!abstract] Irreversible process
+>A process that is not fully capable to return to its inital state, without expenditure of energy or restoring the environment to its own initial conditions.
+>
+>It generates entropy, due to friction, turbulences, spontaneous expansions...
+>
+> $$dS>\frac{\delta Q_{rev}}{T}$$
 
 Related to this, we can discuss the heat flow. The heat flow increases disorder, hence the total entropy increases, moving it toward some more probable, balanced state. The heat flows from a hot to a cold reservoir statistically likely, spreading out energy and increasing entropy, occupying more microstates).
 
@@ -240,16 +249,38 @@ Related to this, we can discuss the heat flow. The heat flow increases disorder,
 >
 >Heat transfer is dissipative (entropy varies with temperature) and they also include also the friction and similar forces that lead into decoherency of energy.
 
+### Internal energy
+
+The internal energy is the total microscopic energy stored inside a system (the random motion of its particles plus the energy in the forces between them).
+
+$$ \Delta U=Q -W$$
+
+with heat $Q$ and the work $W$.
+
+We will revisit this concept more in-depth in section 5, as the **first law of thermodynamics*.
 
 ## 4. Ensembles and Boltzmann statistics
+### Maxwell-Boltzmann statistics
 
+By assumption, the combined system is isolated, so all microstates are equally probable.
+
+ $$ \frac{P(s1)}{P(s2)}=\frac{\Omega_R (s1)}{\Omega_R(s2)} $$
+ 
+ $Ω(s_i)$ describes the number of microstates available to the reservoir for each state $s_i$, and $P(s_i)$ as the probability that our system is in state $s_i$.
+
+
+
+(Partition function?)!!!!!
+
+
+ 
+ $$ \langle N_i \rangle = \frac{g_i}{e^{-(\epsilon_i - \mu)/kT}}= \frac{N}{Z} g_i c^{-\epsilon_i/kT}$$
+ 
+ with $Z=\sum_i g_i e^{-\epsilon_i / kT}$ as the partition function.
+ 
 ### Ensembles
 
 The ensembles are a study of thermodynamics concerned with systems which behave "static" (despite the motion of its internal parts) and can be described simply by macroscopically observable variables.
-
-A statistical ensemble is an idealization consisting of a large number of virtual copies of a system, each of which represents a possible state that the real system might be in. With other words, they describe the probability distribution for the state of a system.
-
-Although a mechanical system evolves over time, an ensemble does not necessarily have to evolve (it won't evolve if it equally contains all past and future phases of the system, in statistical equilibrium).
 
 >[!abstract]- Probability density function
 >An ensemble is represented by a joint probability density function:
@@ -259,47 +290,53 @@ Although a mechanical system evolves over time, an ensemble does not necessarily
 >  defined over the system's phase space, with $n$ general coordinates $q_1, ... , q_n$ and $n$ associated canonical momenta $p_1, ... , p_n$.
 >  
 
->[!abstract]- Maxwell-Boltzmann statistics
-> By assumption, the combined system is isolated, so all microstates are equally probable.
-> 
-> $$ \frac{P(s1)}{P(s2)}=\frac{\Omega_R (s1)}{\Omega_R(s2)} $$
-> 
-> $Ω(s_i)$ describes the number of microstates available to the reservoir for each state $s_i$, and $P(s_i)$ as the probability that our system is in state $s_i$.
-> 
-> $$ \langle N_i \rangle = \frac{g_i}{e^{-(\epsilon_i - \mu)/kT}}= \frac{N}{Z} g_i c^{-\epsilon_i/kT}$$
-> 
-> with $Z=\sum_i g_i e^{-\epsilon_i / kT}$ as the partition function.
+A statistical ensemble describes the probability distribution for the state of a system.
 
->[!abstract] Free energy
-> The free energy determines the spontaneity of processes and the maximum useful work at constant $T$, as the internal energy $U$ doesn't account lose to heat.
-> >[!example]- Helmholtz free energy (constant V)
+Although a mechanical system evolves over time, an ensemble does not necessarily have to evolve (it won't evolve if it equally contains all past and future phases of the system, in statistical equilibrium).
+
+>[!abstract]- Microcanonical ensemble (N, V, E)
+>
+The *microcanonical ensemble* is used to represent the possible states of a mechanical system which has an exactly specified total energy, and all microstates are equally probable ($P=\frac{1}{\Omega}$). 
+>
+>It is an isolated system with conservation of energy, and depends on the macroscopic variables N, V and E (total number of particles, volume and total energy in system, respectively). 
+>
+>![[Screenshot 2026-07-02 222905.png|450]]
+
+>[!abstract]- Canonical ensemble (N, V, T)
+>
+The *canonical ensemble* is a theoretical collection of identical, non-interacting systems, regulated by thermal equilibrium with a heat bath.
+>
+>It is derived from the microcanonical ensemble, when a small system is part of a much larger, isolated system (microcanonical). In the limit of a large system (thermodynamic limit), the probability distribution of energy takes the form of the exponential function of Boltzmann's distribution ($P=e^{\frac{F-E}{kT}}$, with $F= U-TS$ as the Helmholtz free energy)
+>
+>The system can exchange energy with the heat bath, the states of the system will differ in total energy, and it depends on the macroscopic variables N, V and T.
+>
+>![[Screenshot 2026-07-02 222845.png|450]]
+
+>[!abstract]- Grand canonical ensemble ($\mu$, V, T)
+The *grand canonical ensemble* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
+>
+>The system is open, hence the system can exchange energy and particles with a reservoir. It depends on the macroscopic variables $\mu$, V, T.
+>
+>![[Screenshot 2026-07-02 222845 1.png|450]]
+>
+
+### Free energy 
+
+The free energy determines the spontaneity of processes and the maximum useful work at constant $T$, as the internal energy $U$ doesn't account lose to heat.
+
+>[!multi-column] Free energy
+> 
+> >[!example]+ Helmholtz free energy (constant V)
 > >  
 > >  $$ F=U-TS$$
 > > 
 > 
-> >[!example]- Gibbs free energy (constant P)
+> >[!example]+ Gibbs free energy (constant P)
 > >
 > > $$G=H-TS$$
 > > 
 > > with $H=U+PV$
 
-
-The *microcanonical ensemble (N, V, E)* is used to represent the possible states of a mechanical system which has an exactly specified total energy, and all microstates are equally probable ($P=\frac{1}{\Omega}$). 
-
-- It is an isolated system with conservation of energy, and depends on the macroscopic variables N, V and E (total number of particles, volume and total energy in system, respectively). 
-
-
-The *canonical ensemble (N, V, T)* is a theoretical collection of identical, non-interacting systems, regulated by thermal equilibrium with a heat bath.
-
-- It is derived from the microcanonical ensemble, when a small system is part of a much larger, isolated system (microcanonical). In the limit of a large system (thermodynamic limit), the probability distribution of energy takes the form of the exponential function of Boltzmann's distribution ($P=e^{\frac{F-E}{kT}}$, with $F= U-TS$)
-- The system can exchange energy with the heat bath, the states of the system will differ in total energy. 
-- It depends on the macroscopic variables N, V and T.
-
-
-The *grand canonical ensemble ($\mu$, V, T)* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
-
-- The system is open, hence the system can exchange energy and particles with a reservoir.
-- It depends on the macroscopic variables $\mu$, V, T.
 
 >[!example]- Barometric formula
 >It shows how the pressure or the density of the air changes with altitude.
@@ -324,22 +361,106 @@ $$
 
 with $\mu_i=(\frac{\partial U}{\partial N_i})_{S,V,N_{j\neq i}}$ .
 
+
+
 ///
-(Ensembles, ADD IMAGES)
-PROBABILITY DENSITY FUNCTION FOR MICROCANONICAL ensemble
-$$\rho= \frac{1}{h^n C}\frac{1}{W}f(\frac{H-E}{\omega})$$
 (Partition function, little section of quantum statistics??(Lecture 7)-- look at homeworks to decide)
 
 ## 5. Laws of thermodynamics
-(lecture 7+238-244)
-Laws of thermodynamics
-- $T_1=T_2 \quad \quad T_2=T_3$
-- $E=constant$
-- $\Delta S \geq 0$ 
-- $T=0 \rightarrow E_{kin}=0$
 
-Thermodynamic potential (internal energy, Helmholtz free energy, enthalpy, Gibbs free energy and grand potential)
-Principle of minimal energy
+### Laws of thermodynamics
+
+#### Zeroth law of thermodynamics
+If two systems are in thermal equilibrium independently with a third system, they must be in thermal equilibrium with each other. 
+
+$$T_1=T_2 \; , \;T_2=T_3 \; \Rightarrow \; T_1=T_3$$
+
+It justifies the use of suitable thermodynamic systems as thermometers.
+
+#### First law of thermodynamics
+When energy passes, as work, as heat, or with matter, into or out from a system, its internal energy changes in accord with the law of conservation of energy.  
+
+$$U= \text{const}\; \Leftrightarrow \; W_1+Q_1=W_2+Q_2$$
+with $W$ as the work *on* the system and heat $Q$.
+
+$$\Delta U=Q-W$$
+
+with heat $Q$ and $W$ as the work *done by the system*.
+
+>[!example]+ Internal energy for infinitesimal processes
+>We can also express it for infinitesimal processes as:
+>
+>$$ dU=\delta Q+\delta W=\begin{bmatrix} \delta Q=TdS\\\delta W=PdV\end{bmatrix}=TdS-PdV$$
+>
+>To this formula we can also add the expression $\sum_i \mu_i dN_i$ for a closed system in which the particles are of different types $i$, with $\mu_i$ as the chemical potential for type-$i$ particles and $dN_i$ as the small increase in the amount of type-$i$ particles.
+
+>[!abstract]- Proportionality Q - W
+> 
+> $$Q=AW$$
+> 
+> with mechanical equivalent of heat $A=4'186 \frac{J}{cal}$ .
+
+#### Second law of thermodynamics
+In a natural thermodynamic process, the sum of the entropies of the interacting thermodynamic systems increases (see **reversible and irreversible processes** in section 3). 
+
+$$\Delta S \geq 0 \; \rightarrow \;  \left\{ \begin{array}{cl}
+\text{reversible} & , \ \text{if } \Delta S = 0 \\
+\text{irreversible} & , \ \text{if }\Delta S > 0
+\end{array} \right.$$
+
+An isolated system evolves toward equilibrium by increasing entropy (equilibrium $\Leftrightarrow$ maximum entropy).
+
+#### Third law of thermodynamics
+The entropy of a system approaches a constant value as the temperature approaches absolute zero. The entropy of a system at absolute zero is typically close to zero.
+
+$$ T=0 \; \Rightarrow \; E_{kin}=0$$
+
+![[Screenshot 2026-07-03 003944.png|200]]
+
+
+### Thermodynamic potentials
+
+A thermodynamic potential is a scalar quantity that represents the thermodynamic state.
+
+| Potential             | Definition                       | Natural variables |
+| --------------------- | -------------------------------- | ----------------- |
+| Internal energy       | $U=\int (TdS-PdV)$               | S, V, N           |
+| Helmholtz free energy | $F=U-TS$                         | T, V, N           |
+| Enthalpy              | $H=U+PV$                         | S, P, N           |
+| Gibbs free energy     | $G=U+PV-TS$                      | T,P, N            |
+#### Principle of minimal energy
+For closed systems:
+- $S$=const, $\text{external parameters}$=const $\Rightarrow$ $U$ minimal at equilibrium.
+- $T$=const, $\text{external parameters}$=const $\Rightarrow$ $F$ minimal at equilibrium.
+- $P$=const, $\text{external parameters}$=const $\Rightarrow$ $H$ minimal at equilibrium.
+- $T$=const, $P$=const, $\text{external parameters}$=const $\Rightarrow$ $G$ minimal at equilibrium.
+
+#### Fundamental thermodynamic relations
+> [!multi-column] Infinitesimal expressions for thermodynamic potentials
+>>[!example]- Internal energy
+>>
+>>$$dU=TdS-PdV+\sum_idN_i$$
+>
+>
+>>[!example]- Helmholtz free energy
+>>
+>>$$dF=-SdT-PdV+\sum_idN_i$$
+>
+>
+>>[!example]- Enthalpy
+>>
+>>$$dH=TdS-VdP+\sum_idN_i$$
+>
+>
+>>[!example]- Gibbs free energy
+>>
+>>$$dG=-SdT+VdP+\sum_idN_i$$
+>>
+
+
+
+////
+(243-244)
 Fundamental thermodynamic relation
 
 ## 6. Heat engines and efficiency
@@ -396,6 +517,18 @@ Entropical forces
 	Maxwell-Boltzmann distribution ([[Kinetic theory of gases]])
 	General formulation
 Bending stiffness
+
+> [!multi-column] Expansion coefficients
+>
+>
+>>[!example]+ Thermal expansion coefficient
+>>
+>>$$\beta = \frac{\frac{\Delta V}{V}}{\Delta T}$$
+>
+>>[!example]+ Linear thermal expansion coefficient
+>>
+ >>$$\alpha = \frac{\frac{\Delta L}{L}}{\Delta T}$$
+
 Fluctuation-dissipation theorem
 
 
