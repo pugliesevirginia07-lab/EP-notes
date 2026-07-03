@@ -8,7 +8,6 @@ Get energy dividing an unstable atom.
 
 ![[Nuclear fission.png|500]]
 
-
 ### Nuclear fusion
 Get energy unifying atoms, mainly hydrogen isotopes.
 

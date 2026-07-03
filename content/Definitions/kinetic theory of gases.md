@@ -1,3 +1,4 @@
+
 It treats the gas as atoms or molecules in constant random motion.
 
 This theory uses the collisions between the particles and the container to explain macroscopic properties of gases. 

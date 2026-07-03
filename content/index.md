@@ -27,11 +27,11 @@
 > 
 > · Heat, temperature and ideal gas law
 > 
-> · (Entropy and irreversibility)
+> · Entropy and irreversibility
 > 
-> · (Ensembles and Boltzmann statistics)
+> · Ensembles and Boltzmann statistics
 > 
-> · (Laws of thermodynamics)
+> · Laws of thermodynamics
 > 
 > · (Heat engines and efficiency)
 > 
@@ -47,8 +47,14 @@
 > Not created yet.
 
 ## Definitions and concepts
+
 [[Kinetic theory of gases]]
+
 [[Nuclear reactions]]
+
+[[Thermodynamic variables]]
+
+[[Differentials]]
 
 ## Homework
 (Future discussion about homework problems, if there's time)

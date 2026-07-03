@@ -300,7 +300,7 @@ The *microcanonical ensemble* is used to represent the possible states of a mech
 >
 >It is an isolated system with conservation of energy, and depends on the macroscopic variables N, V and E (total number of particles, volume and total energy in system, respectively). 
 >
->![[Screenshot 2026-07-02 222905.png|450]]
+>![[Microcanonical ensemble.png|450]]
 
 >[!abstract]- Canonical ensemble (N, V, T)
 >
@@ -310,14 +310,14 @@ The *canonical ensemble* is a theoretical collection of identical, non-interacti
 >
 >The system can exchange energy with the heat bath, the states of the system will differ in total energy, and it depends on the macroscopic variables N, V and T.
 >
->![[Screenshot 2026-07-02 222845.png|450]]
+>![[Canonical ensemble.png|450]]
 
 >[!abstract]- Grand canonical ensemble ($\mu$, V, T)
 The *grand canonical ensemble* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
 >
 >The system is open, hence the system can exchange energy and particles with a reservoir. It depends on the macroscopic variables $\mu$, V, T.
 >
->![[Screenshot 2026-07-02 222845 1.png|450]]
+>![[Grand canonical ensemble.jpg|450]]
 >
 
 ### Free energy 
@@ -415,7 +415,7 @@ The entropy of a system approaches a constant value as the temperature approache
 
 $$ T=0 \; \Rightarrow \; E_{kin}=0$$
 
-![[Screenshot 2026-07-03 003944.png|200]]
+![[Absolute zero.png|200]]
 
 
 ### Thermodynamic potentials

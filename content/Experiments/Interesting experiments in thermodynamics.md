@@ -1,7 +1,7 @@
 Not started yet.
+
 ### Differential scanning calorimetry
 - Detection of phase transitions
-
 ### Magneto-optical trap
 ### Doppler cooling
 ### Magnetic trapping
@@ -11,3 +11,5 @@ Not started yet.
 ### Osmosis
 ### Electrochemical cell (batteries)
 ### Vapor pressure (evaporation)
+### Joule's experiment (1st law of thermodynamics)
+### Perpetual motion (violates 1st and 2nd law thdyn.)
