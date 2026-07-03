@@ -403,10 +403,7 @@ with heat $Q$ and $W$ as the work *done by the system*.
 #### Second law of thermodynamics
 In a natural thermodynamic process, the sum of the entropies of the interacting thermodynamic systems increases (see **reversible and irreversible processes** in section 3). 
 
-$$\Delta S \geq 0 \; \rightarrow \;  \left\{ \begin{array}{cl}
-\text{reversible} & , \ \text{if } \Delta S = 0 \\
-\text{irreversible} & , \ \text{if }\Delta S > 0
-\end{array} \right.$$
+$$\Delta S \geq 0 \; \rightarrow \;  \left\{ \begin{array}{cl} \text{reversible} & ,\ \text{if } \Delta S = 0 \\\text{irreversible} & , \ \text{if }\Delta S > 0 \end{array} \right.$$
 
 An isolated system evolves toward equilibrium by increasing entropy (equilibrium $\Leftrightarrow$ maximum entropy).
 
