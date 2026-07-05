@@ -4,7 +4,7 @@
 >Experimental Physics 2 notes for IPSP.
 >This website contains notes about the topics discussed in the lectures, definitions, experiments, and homework material. 
 >
->Last time updated: 02.07.26
+>Last time updated: 04.07.26
 
 ## Main chapters
 
@@ -33,7 +33,7 @@
 > 
 > · Laws of thermodynamics
 > 
-> · (Heat engines and efficiency)
+> · Heat engines and efficiency
 > 
 > · (Thermal conduction and thermal capacity)
 > 
@@ -56,5 +56,4 @@
 
 [[Differentials]]
 
-## Homework
-(Future discussion about homework problems, if there's time)
+[[Partition function]]

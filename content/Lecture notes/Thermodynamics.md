@@ -200,6 +200,7 @@ The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). A
 >
 > Fails at lower temperatures or higher pressures (we must count the intermolecular forces and the molecular size).
 
+(See [[Equipartition theorem]]).
 
 ## 3. Entropy and irreversibility
 
@@ -249,15 +250,19 @@ Related to this, we can discuss the heat flow. The heat flow increases disorder,
 >
 >Heat transfer is dissipative (entropy varies with temperature) and they also include also the friction and similar forces that lead into decoherency of energy.
 
+(See [[Energy minimum - Entropy maximum principles]]).
+
 ### Internal energy
 
 The internal energy is the total microscopic energy stored inside a system (the random motion of its particles plus the energy in the forces between them).
 
-$$ \Delta U=Q -W$$
+>[!example] Internal energy
+>
+>$$ \Delta U=Q -W$$
+>
+>with heat $Q$ and the work $W$.
 
-with heat $Q$ and the work $W$.
-
-We will revisit this concept more in-depth in section 5, as the **first law of thermodynamics*.
+We will revisit this concept more in-depth in section 5, as the **first law of thermodynamics**.
 
 ## 4. Ensembles and Boltzmann statistics
 ### Maxwell-Boltzmann statistics
@@ -269,14 +274,10 @@ By assumption, the combined system is isolated, so all microstates are equally p
  $Ω(s_i)$ describes the number of microstates available to the reservoir for each state $s_i$, and $P(s_i)$ as the probability that our system is in state $s_i$.
 
 
-
-(Partition function?)!!!!!
-
-
  
  $$ \langle N_i \rangle = \frac{g_i}{e^{-(\epsilon_i - \mu)/kT}}= \frac{N}{Z} g_i c^{-\epsilon_i/kT}$$
  
- with $Z=\sum_i g_i e^{-\epsilon_i / kT}$ as the partition function.
+ with $Z=\sum_i g_i e^{-\epsilon_i / kT}$ as the [[Partition function]].
  
 ### Ensembles
 
@@ -296,7 +297,7 @@ Although a mechanical system evolves over time, an ensemble does not necessarily
 
 >[!abstract]- Microcanonical ensemble (N, V, E)
 >
-The *microcanonical ensemble* is used to represent the possible states of a mechanical system which has an exactly specified total energy, and all microstates are equally probable ($P=\frac{1}{\Omega}$). 
+>The *microcanonical ensemble* is used to represent the possible states of a mechanical system which has an exactly specified total energy, and all microstates are equally probable ($P=\frac{1}{\Omega}$). 
 >
 >It is an isolated system with conservation of energy, and depends on the macroscopic variables N, V and E (total number of particles, volume and total energy in system, respectively). 
 >
@@ -304,7 +305,7 @@ The *microcanonical ensemble* is used to represent the possible states of a mech
 
 >[!abstract]- Canonical ensemble (N, V, T)
 >
-The *canonical ensemble* is a theoretical collection of identical, non-interacting systems, regulated by thermal equilibrium with a heat bath.
+>The *canonical ensemble* is a theoretical collection of identical, non-interacting systems, regulated by thermal equilibrium with a heat bath.
 >
 >It is derived from the microcanonical ensemble, when a small system is part of a much larger, isolated system (microcanonical). In the limit of a large system (thermodynamic limit), the probability distribution of energy takes the form of the exponential function of Boltzmann's distribution ($P=e^{\frac{F-E}{kT}}$, with $F= U-TS$ as the Helmholtz free energy)
 >
@@ -313,7 +314,7 @@ The *canonical ensemble* is a theoretical collection of identical, non-interacti
 >![[Canonical ensemble.png|450]]
 
 >[!abstract]- Grand canonical ensemble ($\mu$, V, T)
-The *grand canonical ensemble* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
+>The *grand canonical ensemble* represents all possible states of particles maintained in thermodynamic equilibrium (thermal and chemical) with a reservoir. 
 >
 >The system is open, hence the system can exchange energy and particles with a reservoir. It depends on the macroscopic variables $\mu$, V, T.
 >
@@ -342,6 +343,7 @@ The free energy determines the spontaneity of processes and the maximum useful w
 >It shows how the pressure or the density of the air changes with altitude.
 >
 >$$P=\frac{\rho R^* T}{M}$$
+>
 >$$P=P_0 e^{-\frac{Mgz}{R^*T}}$$
 >
 >with $M$ as the molar mass of Earth's air, $R^*$ as the universal gas constant for air ($R^* =8'3144598 \frac{N·m}{mol·K}$) and $z$ as the altitude.
@@ -359,7 +361,7 @@ $$
 \large dU=TdS-PdV+\sum_{i=1}^n \mu_i dN_i
 $$
 
-with $\mu_i=(\frac{\partial U}{\partial N_i})_{S,V,N_{j\neq i}}$ .
+with $\mu_i=(\frac{\partial U}{\partial N_i})_{S,V,N_{j\neq i}}$ as the chemical potential.
 
 
 
@@ -381,7 +383,9 @@ It justifies the use of suitable thermodynamic systems as thermometers.
 When energy passes, as work, as heat, or with matter, into or out from a system, its internal energy changes in accord with the law of conservation of energy.  
 
 $$U= \text{const}\; \Leftrightarrow \; W_1+Q_1=W_2+Q_2$$
+
 with $W$ as the work *on* the system and heat $Q$.
+
 
 $$\Delta U=Q-W$$
 
@@ -401,14 +405,14 @@ with heat $Q$ and $W$ as the work *done by the system*.
 > with mechanical equivalent of heat $A=4'186 \frac{J}{cal}$ .
 
 #### Second law of thermodynamics
-In a natural thermodynamic process, the sum of the entropies of the interacting thermodynamic systems increases (see **reversible and irreversible processes** in section 3). 
+In a natural thermodynamic process, the sum of the entropies of the interacting thermodynamic systems increases (see **reversible and irreversible processes** in section 3). Bigger or equal to 0 if we consider no heat transfer.
 
 $$\Delta S \geq 0 \; \rightarrow \;  \left\{ \begin{array}{cl} \text{reversible} & ,\ \text{if } \Delta S = 0 \\\text{irreversible} & , \ \text{if }\Delta S > 0 \end{array} \right.$$
 
 An isolated system evolves toward equilibrium by increasing entropy (equilibrium $\Leftrightarrow$ maximum entropy).
 
 #### Third law of thermodynamics
-The entropy of a system approaches a constant value as the temperature approaches absolute zero. The entropy of a system at absolute zero is typically close to zero.
+The entropy of a system approaches a constant value as the temperature approaches absolute zero. The entropy of a system at absolute zero is typically close to zero (although, in practice, it is not possible to have 0 kinetic energy in absolute zero (see **temperature** in section 2)).
 
 $$ T=0 \; \Rightarrow \; E_{kin}=0$$
 
@@ -455,41 +459,242 @@ For closed systems:
 >>
 
 
+### Fundamental thermodynamic relations
 
-////
-(243-244)
-Fundamental thermodynamic relation
+
+
+
+
+
+
+| Potential | Natural variables | Differential  | Partial derivatives                                                                                         |
+| --------- | ----------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
+| $U(S,V)$  | $(S,V)$           | $dU=TdS-PdV$  | $$T=\left(\frac{\partial U}{\partial S}\right)_V \; ,\; P=-\left(\frac{\partial U}{\partial V}\right)_S$$   |
+| $H(S,P)$  | $(S,P)$           | $dH=TdS+VdP$  | $$T=\left(\frac{\partial H}{\partial S}\right)_P \; ,\; V=\left(\frac{\partial H}{\partial p}\right)_S$$    |
+| $F(T,V)$  | $(T,V)$           | $dF=-SdT-PdV$ | $$S=-\left(\frac{\partial F}{\partial T}\right)_V \; , \; P=-\left(\frac{\partial F}{\partial V}\right)_T$$ |
+| $G(T,P)$  | $(T,P)$           | $dG=-SdT+VdP$ | $$S=-\left(\frac{\partial G}{\partial T}\right)_P\; , \; V=\left(\frac{\partial G}{\partial p}\right)_T$$   |
+
 
 ## 6. Heat engines and efficiency
-(diap 250-309)
-Thermodynamic cycles
-Thermodynamic processes
-Carnot cycle
-(Temperature-entropy diagram?)
-Engine efficiency (thermal efficiency)
-Carnot's theorem
-Stirling cycle
-Refrigerator and heat pump
+
+### Thermodynamic cycles
+
+A thermodynamic cycle is a close sequence of thermodynamic processes involving transfer of heat and work (into and out of the system), while varying the pressure, the temperature and other state variables.
+
+- Heat engine: the working substance may convert heat from a warm source into work, disposing the remaining heat to a cold sink.
+- Heat pump: the cycle may be reversed and we use work to move heat from a cold source and transfer it to a warm sink.
+
+#### (Ideal) Quasistatic cycle
+The net variation in the state properties during a thermodynamic cycle is zero ($\Delta E=E_{out}-E_{in}=0$), forming a closed loop on a PV diagram.
+
+![[Thermodynamic processes (basic).png|250]]
+
+The area enclosed by the closed loop is the work done by the process:
+
+$$W=\oint PdV=Q=Q_{in}-Q_{out}$$
+
+- If the cyclic process moves clockwise: positive $W$ (heat engine).
+- If the cyclic process moves counterclockwise: negative $W$ (heat pump).
+#### Types of thermodynamic processes
+- Isobaric process: constant pressure $P$.
+- Isochoric process: constant volume $V$.
+- Isothermal process: constant temperature $T$.
+- Adiabatic process: no transfer of heat between the system and its surroundings.
+	- Adiabatic wall: does not allow heat flow.
+	- Diathermic wall: allows heat flow
+
+A good way to visualize these processes are with PV diagrams, which can be different for different thermodynamic processes, but we will see an example with the Carnot cycle.
+
+### Carnot cycle
+
+The Carnot cycle is a theoretical construct of a "perfect" engine and defines the theoretical limit on efficiency (which will be commented later on).
+
+>[!multi-column] Quasistatic cycle for the Carnot engine
+>>[!abstract] Visualization of the Carnot cycle
+>> ![[Carnot engine visualization.png|400]]
+>
+>>[!abstract] PV-diagram for the Carnot cycle
+>>![[PV-diagram Carnot cycle.png|400]]
+
+(See [[Carnot cycle diagram explanation]]).
+
+### Engine efficiency
+
+The engine efficiency is the ratio of useful work output to total heat energy input.
+
+>[!example] Efficiency
+>$$ \eta= \frac{W}{Q_H}$$
+>
+>with work $W$ and heat energy entering the system $Q_H$.
+>
+>From the first law of thermodynamics: $0 \leq \eta <1$.
+
+- Thermal efficiency: percentage of fuel heat energy converted to mechanical work.
+- Combustion efficiency: efficiency of converting fuel into heat (often 100% in good conditions).
+
+Electric motors have a higher efficiency than heat engines or internal combustion engines. They use electromagnetism and bypass losses associated with the fuel combustion and thermodynamics.
+
+>[!abstract] Carnot's theorem
+> Every reversible heat engine operating between a pair of heat reservoirs is equally efficient (it'll depend only on the temperatures of the hot and cold reservoirs), due to the second law of thermodynamics.
+> 
+> $$\eta=1-\frac{T_C}{T_H}$$
+> 
+> with temperature in the cold reservoir $T_C$ and in the hot reservoir $T_H$.
+
+
+![[Heat engine.png|350]]
+
+#### Refrigerator and heat pump
+A heat engine run in reverse is a refrigerator and heat pump, the work is done to move the heat from the cold-temperature source to the hot-temperature sink. 
+
+When the liquid refrigerant at a low temperature and low pressure passes through the outdoor heat exchanger, ambient heat causes the liquid to change to gas, the gas is then compressed using an electric pump; the compression increases the temperature of the gas.
+
+![[Vapor-compresion refrigeration.png|350]]
+
+Coefficient of performance: equivalent to the engine efficiency, when the COP is high, the efficiency is also high.
+
+$$COP=\frac{|Q_{provided}|}{W_{required}}$$
+
 
 ## 7. Thermal conduction and heat capacity
-(diap 311-326 (lecture9), lecture 10 )
-Heat transfer
-	Advection
-	Convection
-	Conduction: Fourier's law (law of heat conduction)
-	Radiation (thermal, black-body)
-Thermal energy
-Heat capacity (also in many slides after equipartition th.)
-Equipartition theorem
-Thermal expansion
-Dulong-Petit law
+
+### Heat transfer
+
+The fundamental modes of the heat transfer: 
+#### Advection/Convection
+Transport of a fluid/gas from one location to another, and is dependent on the motion of that fluid/gas. It is the most efficient way of heat transfer
+
+#### Conduction
+The transfer of energy between objects that are in physical contact. Thermal conductivity is the property of a material to conduct heat which is described by Fourier's Law for heat conduction. 
+
+>[!abstract]- Rayleigh-Bénard convection
+>  The fluid develops a regular pattern of convection cells known as Bénard cells.
+>  
+>  ![[Rayleigh-Bénard convection.png|450]]
+>  
+>   Gravity acts trying to pull the cooler, denser liquid from the top to the bottom. This gravitational force is opposed by the viscous damping force in the fluid.
+
+The thermal conduction is the transfer of heat by microscopic collisions of particles within a body. The conduction takes place in all phases of matter.
+
+#### Radiation
+The transfer of energy by the emission of electromagnetic radiation, generated by the thermal motion of charged particles in matter. All matter with a temperature greater than absolute zero emits thermal radiation.
+
+When $T>0$ : the interatomic collisions cause kinetic energy of the atoms or molecules to change, this results in charge-acceleration and/or dipole oscillation, producing EM radiation.
+
+(See [[Black-body radiation]]).
+
+
+### Thermal energy
+
+Part of the total kinetic energy of an object or sample of matter that results in the system temperature, as a consequence of absorbing heat.
+
+Some of the thermal energy is stored in atomic vibration and stored equally partitioned between potential energy and kinetic energy of atomic vibration.
+
+#### Heat capacity
+
+The heat capacity is the thermal energy of a system $U$ at a given $T$ is related proportionally to its heat capacity $C(T)$:
+
+$$\large U_{thermal}=C(T)·T$$
+
+(See [[Equipartition theorem]]).
+
+We treat the vibrations of the atomic lattice (heat) as [[phonons]] in a box. Debye model treats atomic vibrations as phonons in a box of length L using: $\lambda_n=\frac{2L}n$ , and the energy of a phonon is
+
+$$E_n=h \nu_n= \frac{h \ c_s}{\lambda_n}=\frac{h\ c_s\ n}{2L}$$   
+(diap 8-12??)
+
+>[!abstract]- Dulong-Petit law
+> The heat capacity of a mole of many solid elements is about 3R
+> 
+> $$\frac C N =3R$$
+> 
+> with $C$ for the total heat capacity, number of moles $N$ and the universal gas constant $R$.
+
+We can use the heat capacity to relate the thermodynamic relations we have seen previously ($dU=\delta Q- \delta W$ and $dU=\delta Q -PdV$, among others):
+
+$$C(T)=\frac{\delta Q}{\delta T}$$
+
+>[!multi-column] Heat capacities
+>
+>>[!abstract]- Constant volume
+>>
+>>$$\left( \frac{\partial U}{\partial T} \right)_V=\left( \frac{\partial Q}{\partial T} \right)_V=C_V= T \left( \frac{\partial S}{\partial T} \right)_V$$
+>
+>
+>>[!abstract]- Constant pressure
+>>
+>> $$\left( \frac{\partial H}{\partial T} \right)_P=\left( \frac{\partial Q}{\partial T} \right)_P=C_P=T\left( \frac{\partial S}{\partial T} \right)_P$$
+>>
+>> with $H=U+PV \rightarrow dH=\delta Q+VdP$ as the enthalpy of the system.
+>
+
+>[!abstract] Relations between heat capacities
+> 
+>$$C_P-C_V=VT\frac{\alpha^2}{\beta_T}$$
+>
+>$$\frac{C_P}{C_V}=\frac{\beta_T}{\beta_S}$$
+>
+>>[!abstract]+ Coefficients
+>> · Thermal expansion coefficient: $\alpha=\frac 1 V \left(\frac{\partial V}{\partial T}\right)_P$
+> >
+>> · Isothermal compressibility: $\beta_T=-\frac 1 V \left(\frac{\partial V}{\partial P}\right)_T$
+>> 
+>> · Isentropic compressibility: $\beta_S=-\frac 1 V \left(\frac{\partial V}{\partial P}\right)_S$
+
+
+### Thermal expansion
+
+The thermal expansion is related to the asymmetric (anharmonic) shape of the interatomic potential. If the interatomic potential is symmetric (harmonic), the average value of interatomic separation does not change, hence there is no thermal expansion.
+
+![[Pasted image 20260706003645.png|500]]
+
+///
+Look at equipartition theorem and diap 8-12 lecture 10
+
 
 ## 8. Phase transitions and real gases
-(lecture 10, lecture 11)
-Phase transitions
-Thermodynamic surfaces
-Classification
-Latent heat
+
+### Phase transitions
+
+A phase of a thermodynamic system and the states of matter have uniform defined physical properties. During a phase transition properties of the medium change, often discontinuously, as a result of the change of some external condition, such as temperature $T$, pressure $P$, among others.
+
+>[!abstract] Phase diagram of a substance
+>![[Pasted image 20260706001257.png|350]]
+>
+ > · The dotted lines represent the anomalous behavior of the substance.
+ > 
+ > · The *triple point* of a substance is the temperature and pressure at which the three phases (gas, liquid, and solid) of the substance coexist in thermodynamic equilibrium. 
+ > 
+ > · The *critical point* is the end point of a phase equilibrium curve.
+ > 
+ > · The *end point* of the pressure-temperature curve that designates conditions under which a liquid and its vapor can coexist.
+
+(See [[Fundamental states of matter]]).
+
+#### Thermodynamic surfaces
+The thermodynamic surfaces are three-dimensional diagrams that describe every equilibrium point of a pure substance.
+
+>[!multi-column] Types of thermodynamic surfaces
+>>[!abstract] Pressure - volume - temperature (P-V-T) surfaces
+>> ![[Pasted image 20260706002656.png|300]]
+>
+>>[!abstract] Temperature - entropy - pressure (T-S-P) surfaces
+>> ![[Pasted image 20260706002838.png|300]]
+
+>[!abstract] Latent heat
+>The latent heat is the heat released or absorbed by a thermodynamic system during a constant-temperature process.
+
+>[!multi-column] Classification
+>>[!info]- Ehrenfest classification
+>> · *First-order phase transitions*: discontinuity in the first derivative of the free energy w.r.t some thermodynamic variable (i.e. the solid, liquid and gas transitions).
+>> 
+>> · *Second-order phase transitions*: continuous in the first derivative, but with discontinuity in the second derivative of the free energy (i.e. ferromagnetic phase transition).
+>
+>
+>>[!info]- Modern classification
+>> · *First-order phase transitions*: involve a latent heat (i.e. melting of ice or boiling of water).
+>>
+>> · *Second-order phase transitions (also called continuous phase transitions)*: a divergent susceptibility (quantification for the change of an extensive property under variation of an intensive property), and a power-law decay of correlations near criticality.
 
 >[!example] Van der Waals equation
 > $$(P+\frac{an^2}{V^2})(V-nb^2)=nRT$$
@@ -498,10 +703,14 @@ Latent heat
 >
 >This equation works as a corrected model for real gases (adding new terms for molecular size and intermolecular attractions).
 
-(little more explanation on Van der Waals eq., graphic representation?)
+
+///
+Fundamental states of matter
+(lecture 11 diap 6-7, little more explanation on Van der Waals eq., graphic representation?)
+
 
 ## 9. Brownian motors and entropic forces
-(Lecture 11, lecture 12)
+(Lecture 11 diap 9-41 , lecture 12)
 Feynman's thermal ratchet
 Brownian motor
 Entropic elasticity
