@@ -1,7 +1,7 @@
 # Chapter 1 : Special relativity
 ## 1. Introduction
 
-The main motivation was the conflict between Galilean mechanics and electromagnetism. Galilei-transformations failed for very large velocities, allowing simple addition of velocities between inertial frames, due to the Maxwell's equations implying a fixed speed of light, they started thinking about the "ether" (which existence was refuted by the [[Michelson-Morley experiment]]).
+The main motivation was the conflict between Galilean mechanics and electromagnetism. Galilei-transformations failed for very large velocities, allowing simple addition of velocities between inertial frames, due to the Maxwell's equations implying a fixed speed of light, they started thinking about the "ether" (which existence was refuted by the [Michelson-Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment)).
 
 ### Short review to inertial frames
 We use frames of reference as a coordinate system to describe motion.

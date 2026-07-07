@@ -1,3 +1,4 @@
+
 A perfectly insulted enclosure, which is in thermal equilibrium, internally contains black-body radiation (thermal photon gas), and will emit it through a hole made in its wall. We assume that the hole is small enough to have a negligible effect upon the the equilibrium.
 
 The thermal EM radiation by a black body emits a specific spectrum of wavelengths depending on the body's temperature (Planck's spectrum).

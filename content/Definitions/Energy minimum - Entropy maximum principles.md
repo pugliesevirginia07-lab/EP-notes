@@ -1,3 +1,4 @@
+
 (Homework 4, problem 2)
 
 - Energy minimum principle: An isolated system at fixed energy maximizes its entropy to reach the lowest energy.

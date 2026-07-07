@@ -1,5 +1,3 @@
-NOT FINISHED YET!!
-
 
 ![[Carnot engine cycle.png|400]]
 
@@ -23,4 +21,5 @@ NOT FINISHED YET!!
 	- The gas is compressed further.
 	- Work done on the gas raises its internal energy, so the temperature rises back to the hot-reservoir temperature and the cycle is ready to repeat.
 
-(Computation maybe???)
+------
+(Look at *Homework 5, Problem 4*).

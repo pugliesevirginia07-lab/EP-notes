@@ -2,13 +2,14 @@
 
 >[!info]  
 >Experimental Physics 2 notes for IPSP.
->This website contains notes about the topics discussed in the lectures, definitions, experiments, and homework material. 
 >
->Last time updated: 04.07.26
+>This website contains notes about the topics discussed in the lectures, definitions, examples, and homework material. 
+>
+>Last time updated: 06.07.26
 
 ## Main chapters
 
-> [!info]- [[Special relativity]]
+> [!todo]- [[Special relativity]]
 > 
 > · Problem of simultaneity
 > 
@@ -20,8 +21,7 @@
 > 
 > · Relativistic kinetic energy
 
->[!danger]- [[Thermodynamics]]
-> Not finished yet!
+>[!todo]- [[Thermodynamics]]
 > 
 > · Central limit theorem and Brownian motion and diffusion
 > 
@@ -35,25 +35,15 @@
 > 
 > · Heat engines and efficiency
 > 
-> · (Thermal conduction and thermal capacity)
+> · Thermal conduction and thermal capacity
 > 
-> · (Phase transitions and real gases)
+> · Phase transitions and real gases
 > 
-> · (Brownian motors and entropic forces)
-> 
-> [[Interesting experiments in thermodynamics]]
+> · Brownian motors and entropic forces
+>
+>
+> [[Examples in thermodynamics]] 
 
->[!failure]- Electro
+>[!failure]- Electromagnetism
 > Not created yet.
 
-## Definitions and concepts
-
-[[Kinetic theory of gases]]
-
-[[Nuclear reactions]]
-
-[[Thermodynamic variables]]
-
-[[Differentials]]
-
-[[Partition function]]

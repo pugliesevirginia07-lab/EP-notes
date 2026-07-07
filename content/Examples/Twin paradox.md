@@ -1,3 +1,4 @@
+
 A "gedanken-experiment" involving identical twins, one of whom makes a journey into space in a high-speed rocket and returns home, to find that the twin who remained on Earth has aged more.
 
 The travelling twin's trajectory involves two different inertial frames (outbound and inbound journey).
