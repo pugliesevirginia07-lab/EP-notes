@@ -508,10 +508,12 @@ The Carnot cycle is a theoretical construct of a "perfect" engine and defines th
 
 >[!multi-column] Quasistatic cycle for the Carnot engine
 >>[!abstract] Visualization of the Carnot cycle
->> ![[Carnot engine visualization.png|150]]
+>>
+>> ![[Carnot engine visualization.png|300]]
 >
 >>[!abstract] PV-diagram for the Carnot cycle
->>![[PV-diagram Carnot cycle.png|150]]
+>>
+>>![[PV-diagram Carnot cycle.png|300]]
 
 (See [[Carnot cycle diagram explanation]]).
 
@@ -664,6 +666,7 @@ During a **phase transition** properties of the medium change, often discontinuo
 
 >[!abstract] Phase diagram of a substance
 >![[Phase transition diagram.png|350]]
+>
  > · The dotted lines represent the anomalous behavior of the substance.
  > 
  > · The **triple point** of a substance is the temperature and pressure at which the three phases (gas, liquid, and solid) of the substance coexist in thermodynamic equilibrium. 
@@ -675,14 +678,17 @@ During a **phase transition** properties of the medium change, often discontinuo
 (See [[Fundamental states of matter]]).
 
 #### Thermodynamic surfaces
-The thermodynamic surfaces are three-dimensional diagrams that describe every equilibrium point of a pure substance.
+The **thermodynamic surfaces** are three-dimensional diagrams that describe every equilibrium point of a pure substance.
 
 >[!multi-column] Types of thermodynamic surfaces
 >>[!abstract] Pressure - volume - temperature (P-V-T) surfaces
->> ![[P-V-T surface.png|200]]
+>>
+>> ![[P-V-T surface.png|300]]
 >
 >>[!abstract] Temperature - entropy - pressure (T-S-P) surfaces
->> ![[T-P-E surface.png|200]]
+>>
+>> ![[T-P-E surface.png|300]]
+>> 
 
 >[!abstract] Latent heat
 >The latent heat is the heat released or absorbed by a thermodynamic system during a constant-temperature process.
@@ -715,7 +721,7 @@ The thermodynamic surfaces are three-dimensional diagrams that describe every eq
 
 ### Brownian motor
 
-The Brownian motors are nanoscale or molecular machines that can extract useful work from chemical potentials under large thermal fluctuations.
+The **Brownian motors** are nanoscale or molecular machines that can extract useful work from chemical potentials under large thermal fluctuations.
 - On nanoscale, the thermal noise makes moving in a specific direction difficult.
 - In systems with symmetry-breaking, thermal Brownian motion can be guided so that, instead of moving randomly in every direction, the particles tend to move in one preferred direction (the randomness of the system changes).
 
@@ -731,7 +737,7 @@ The relevant state variables ($x(t)$ and $T(t)$) of a Brownian motor are loosely
 
 Following the basic equations for the entropy $S$ and $F$, we model a driving force $f$ of entropy "pulling" the polymer intro an unstretched conformation.
 
-In the entropic elasticity, we use an entropic force very similar to the pressure experienced by the walls of a box containing an ideal gas. In the canonical ensemble, this entropic force is defined as:
+In the **entropic elasticity**, we use an entropic force very similar to the pressure experienced by the walls of a box containing an ideal gas. In the canonical ensemble, this entropic force is defined as:
 
 $$F(X_0)=T \nabla_X S(X)|_{X_0}$$ 
 with macrostate $X$ and present macrostate $X_0$.

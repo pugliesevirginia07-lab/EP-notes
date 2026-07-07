@@ -43,6 +43,8 @@
 >
 >
 > [[Examples in thermodynamics]] 
+> 
+> (Future discussion about homework)
 
 >[!failure]- Electromagnetism
 > Not created yet.

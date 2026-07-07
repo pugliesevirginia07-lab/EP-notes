@@ -46,4 +46,5 @@ The most important conjugate pairs are always with an intensive and an extensive
 | Temperature $T$          | Entropy $S$         | $dQ=TdS$                       |
 | Pressure $P$             | Volume $V$          | $dW= -PdV$                     |
 | Chemical potential $\mu$ | Particle number $N$ | The energy changes by $\mu dN$ |
+
 These three pairs write the fundamental thermodynamic representation: $dU=TdS-PdV+\mu dN$.
