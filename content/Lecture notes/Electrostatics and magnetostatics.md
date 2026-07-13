@@ -207,6 +207,8 @@ $$\sigma_{pol}=\frac {Q_{pol}}A =\frac {N·q·d·A}A =P$$
 The field inside the dielectric becomes lower due to the relative permittivity, then we introduce the dielectric susceptibility $\chi =N· \frac \alpha {\epsilon_0}$ , then we can describe the dielectric's energy with:
 
 $$\vec E_{diel}= \frac{\sigma_{free}-\sigma_{pol}}{\epsilon_0}\hat r= \vec E_{vac}-\frac P{\epsilon_0}$$
+
+
 $$ \Rightarrow P=\epsilon_0 \chi \vec E_{diel}=\epsilon_0 (\vec E_{vac}-\vec E_{diel}) \qquad \text{and } \qquad \vec E_{diel}=\frac{\vec E_{vac}}{1+\chi}=\frac 1 {\epsilon_r} \vec E_{vac}$$
 
 >[!abstract]- Work in a battery
