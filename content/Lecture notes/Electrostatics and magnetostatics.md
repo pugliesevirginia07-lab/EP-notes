@@ -12,6 +12,7 @@
 > The elementary charge $e$ is the magnitude of charge carried by a single proton ($+1e$) or electron ($-1e$). 
 > 
 > >[!abstract]+ Fundamental behaviors
+> >
 > >· Quantization: The charge must be an integer of $e$ ($q=ne$).
 > >
 > > · Conservation: The electric charge in a closed system remains constant over time (charge can be transferred but not created or destroyed).
@@ -130,20 +131,11 @@ Higher-order terms (**quadrupoles**, octupoles), drop off at faster rates and be
 
 We then define the monopole, the dipole and the quadrupole as follows:
 
-$$q_{\text{tot}} \equiv \sum_{i=1}^{N} q_i \qquad
-
-P_{\alpha} \equiv \sum_{i=1}^{N} q_i r_{i\alpha} \qquad
-
-Q_{\alpha\beta} \equiv \sum_{i=1}^{N} q_i \left( 3 r_{i\alpha} r_{i\beta} - \delta_{\alpha\beta} r_i^2 \right)$$
+$$q_{\text{tot}} \equiv \sum_{i=1}^{N} q_i \qquad P_{\alpha} \equiv \sum_{i=1}^{N} q_i r_{i\alpha} \qquad Q_{\alpha\beta} \equiv \sum_{i=1}^{N} q_i \left( 3 r_{i\alpha} r_{i\beta} - \delta_{\alpha\beta} r_i^2 \right)$$
 
 Then, the multipole expansion would be: 
 
-$$ 4\pi\epsilon_0 V(\vec{r}) \equiv \sum_{i=1}^{N} q_i\, v(\vec{r}_i - \vec{r})
-
-= \frac{q_{\text{tot}}}{r}
-+ \frac{1}{r^3} \sum_{i=1}^3 P_{i} r_{i}
-+ \frac{1}{2r^5} \sum_{i,j = 1}^3 Q_{ij} r_{i} r_{j}
-+ \cdots$$
+$$ 4\pi\epsilon_0 V(\vec{r}) \equiv \sum_{i=1}^{N} q_i\, v(\vec{r}_i - \vec{r})= \frac{q_{\text{tot}}}{r}+ \frac{1}{r^3}\sum_{i=1}^3 P_{i} r_{i}+ \frac{1}{2r^5} \sum_{i,j = 1}^3 Q_{ij} r_{i} r_{j}+ \cdots$$
 
 
 ## 3. Conductors and dielectrics in electric fields
