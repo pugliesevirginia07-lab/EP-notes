@@ -1,6 +1,6 @@
 # Chapter 2 : Thermodynamics
 
-See [[Differentials]] and [[Thermodynamic variables]].
+See [[Differentials]] and [[Thermodynamic variables and units]].
 ## 1. Central limit theorem and Brownian motion and diffusion
 
 ### Introduction

@@ -5,7 +5,7 @@
 >
 >This website contains notes about the topics discussed in the lectures, definitions, examples, and homework material. 
 >
->Last time updated: 06.07.26
+>Last time updated: 11.07.26
 
 ## Main chapters
 
@@ -46,6 +46,6 @@
 > 
 > (Future discussion about homework)
 
->[!failure]- Electromagnetism
-> Not created yet.
+>[!danger] [[Electrostatics and magnetostatics]]
+> Not finished yet.
 

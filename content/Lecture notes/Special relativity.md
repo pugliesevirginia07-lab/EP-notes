@@ -108,7 +108,7 @@ $$ \Delta t'= \gamma \Delta t$$
 
 The relativistic kinetic energy is defined as:
 
-$$ E_k=\frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}-mc^2=(\gamma -1)mc^2$$
+$$ E_k=\frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}-mc^2=(\gamma -1)m_0c^2$$
 
 with $m= \frac{m_0}{\sqrt{1-\frac{v^2}{c^2}}}=\gamma \ m_0$  , the relativistic mass, which increases due to its kinetic energy. The speed limit is at the lightspeed, when $\gamma \rightarrow 0$, requiring infinite force to accelerate further.  
 
