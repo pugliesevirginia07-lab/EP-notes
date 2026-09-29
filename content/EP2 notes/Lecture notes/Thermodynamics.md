@@ -15,7 +15,7 @@ See [[Differentials]] and [[Thermodynamic variables and units]].
 >>
 >> We define $X$ as the number of successes in $n$ trials, and $p$ as the success probability. Then we can get the probability $P$ for a given $X$:
 >> 
->> $$P(X=x)= \begin{pmatrix} n \\X \end{pmatrix}p^X(1-p)^{n-K}$$
+>> $$P(X=x)= \begin{pmatrix} n \\X \end{pmatrix}p^X(1-p)^{n-X}$$
 >>
 >>With the combinatorial $\frac{n!}{X!(n-X)!}$ We can also get the probability for an interval of successes ($X\leq x$ or $X\geq x$). 
 >
@@ -168,7 +168,7 @@ The diffusion coefficient $D$ measures how quickly the particles spread, for lar
 >When two objects are in thermal contact, the hotter object tends to transfer energy to the colder one.
 >
 
-From the [[kinetic theory of gases]], the absolute temperature of a gas is proportional to the average translational kinetic energy of its molecules, the Boltzmann's constant is the conversion factor between these two.
+From the [[Kinetic theory of gases]], the absolute temperature of a gas is proportional to the average translational kinetic energy of its molecules, the Boltzmann's constant is the conversion factor between these two.
 
 The coldest theoretical temperature is absolute zero ($0 K$, or $-273'15ºC$). At absolute zero a system reaches its lowest possible energy state, even though the systems' random motion in the zero-point energy never vanishes  because of the uncertainty principle (retaining always some kinetic energy, even at the lowest temperature).
 
@@ -226,7 +226,7 @@ It depends only on the final and initial state (path independent).
 >
 >with $k_B$ as the Boltzmann's constant with $k_B=1'38065·10^{23} \; \frac{J}{K}$ and $\Omega=\begin{pmatrix} N\\n \end{pmatrix}$ as the number of microstates $n$ in each macrostate $N$ (combinatorics). 
 >
->May be interesting to know Stirling's approximation: $\ln (x!) \approx x \ln (x)-x$ (homework -, exercise -).
+>May be interesting to know Stirling's approximation: $\ln (x!) \approx x \ln (x)-x$ (homework 3, exercise 1).
 >>[!example]- Gibbs entropy (includes non-equilibrium)
 >>
 >>$$ S=-k_B \sum_i p_i \ln p_i$$

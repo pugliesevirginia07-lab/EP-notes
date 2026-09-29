@@ -7,22 +7,9 @@
 
 ## 1. Electric charges and fields
 
->[!abstract]- The elementary charge
-> 
-> The elementary charge $e$ is the magnitude of charge carried by a single proton ($+1e$) or electron ($-1e$). 
-> 
-> >[!abstract]+ Fundamental behaviors
-> >
-> >· Quantization: The charge must be an integer of $e$ ($q=ne$).
-> >
-> > · Conservation: The electric charge in a closed system remains constant over time (charge can be transferred but not created or destroyed).
-> > 
-> > · Additivity: The charges are scalar quantities that can be summed directly to find net charge of an object.
-> >
-> > · Forces of attraction/repulsion: Opposite charges attract and charges of the same sign repel each other.
-> > 
+(See [[Elementary charge]]).
 
-The **transport of electric charges** represents an electric current, which is always connected with the transport of mass.
+The **transport of electric charges** represents an electric current, which is always connected with the transport of mass ([[Separation of electric charges]]).
 
 >[!example] Electrostatic force (Coulomb's law)
 >
@@ -33,7 +20,6 @@ The **transport of electric charges** represents an electric current, which is a
 > $$ \vec{F}= \frac q {4\pi \epsilon_0} \sum \frac{Q_i}{r_i^2}\hat{r_i}$$
 > 
 
-(Separation of electric charges)
 
 >[!example] Electric field
 >
@@ -94,12 +80,24 @@ Due to the conservation of energy, the kinetic energy must change by $\Delta E_{
 
 >[!example] First equation of electrostatics
 >
->$$\vec E=-\vec \nabla \phi$$
+>The **electrostatic field** is a conservative field, hence the work done by the field depends only on the initial and final positions, independent of the path.
+>
+>In a closed loop: 
+>
+>$$W=\oint \vec F \, d\vec r=0 \; \rightarrow \; [\vec F=q\vec E]= \oint \vec E \, d\vec r=0$$ 
+>
+>We apply Stokes' theorem: 
+>
+>$$\oint_\gamma \vec E \, d\vec r=\int_S (\vec \nabla \times \vec E)\, d\vec S=0$$
+>
+>$$\Rightarrow \vec \nabla \times \vec E=0$$
 >
 >
-> $$\Rightarrow \vec\nabla \vec E=-\vec\nabla · \vec\nabla\phi=-\Delta \phi=\frac \rho {\epsilon_0}$$
+>$$\rightarrow W=-\Delta U= \phi_B -\phi_A= -\int_A^B \vec E \, d\vec r$$
 >
->with $$\Delta \phi= -\frac \rho {\epsilon_0}$$ as the Poisson equation.
+>$$\Rightarrow \vec E= -\vec \nabla \phi$$ 
+>
+>We get the *first equation of electrostatics*, the homogeneous field equation of electrostatics.
 
 ### Electric multipoles
 
@@ -188,13 +186,20 @@ When a dielectric is exposed to an external field, it creates dipoles, with a re
 
 For small atomic displacements, we get $\vec p =\alpha · \vec E$ , with [[Atomic polarizability]] $\alpha$. 
 
-Depending on the material's molecular structure, the polarization occurs in these main ways:
-- Electronic polarization: The electron cloud of an atom shifts slightly away from the positively charged nucleus.
-- Ionic polarization: In ionic compounds, positive ions and negative ions are pulled in opposite directions by the electric field.
-- Orientation (dipolar) polarization: In molecules that already possess a "permanent" dipole (like water), the electric field. physically rotates the entire molecule to align with the field.
-- Interfacial (space charge) polarization: Free charges accumulate at the boundary layers or defects of multi-phase materials.
+>[!abstract]- Ways of polarization
+>
+>Depending on the material's molecular structure, the polarization occurs in these main ways:
+>
+> · **Electronic** polarization: The electron cloud of an atom shifts slightly away from the positively charged nucleus.
+> 
+> · **Ionic** polarization: In ionic compounds, positive ions and negative ions are pulled in opposite directions by the electric field.
+> 
+> · **Orientation** (dipolar) polarization: In molecules that already possess a "permanent" dipole (like water), the electric field. physically rotates the entire molecule to align with the field.
+> 
+> · **Interfacial** (space charge) polarization: Free charges accumulate at the boundary layers or defects of multi-phase materials.
+> 
 
-### Forces and electric field energy in dielectrics
+### Equations in dielectrics
 
 In a uniform electric field, the net force on a dielectric is zero (opposite forces perfectly cancel).
 
@@ -223,3 +228,43 @@ $$ \Rightarrow P=\epsilon_0 \chi \vec E_{diel}=\epsilon_0 (\vec E_{vac}-\vec E_{
 > 
 > Half of this work is used to increase the field energy and the other half is transformed into $E_{kin}$ for the dielectric.
 
+
+Inside a dielectric we distinguish between free charges, supplied externally and with free movement through the conductor, and bound charges, produced by polarization and attached to molecules. 
+
+By the *first equation of electrostatics* $\vec\nabla · \vec E=\frac \rho {\epsilon_0}$ , but inside a dielectric we have a total charge density of $\rho= \rho_f + \rho_b$. This is not convenient because the bound charges depends on how the material becomes polarized.
+
+>[!example]+ Dielectric displacement density
+>
+>We define the **dielectric displacement density**: $$\vec D= \epsilon_0 \vec E + \vec P$$ 
+>
+>If the polarization changes from one point to another, charges begin to accumulate, which would correspond to bound charges.
+>
+>The volume density of the bound charges is $\rho_b= -\vec \nabla · \vec P$ , and the surface bound charge density is $\sigma_b =\vec P · \hat n$ .
+>>[!example]+ Gauss' law for the displacement field
+>>
+>>$$\vec\nabla · \vec D= \epsilon_o \vec\nabla · \vec E+\vec\nabla·\vec P= \left[ \vec\nabla · \vec E =\frac{\rho_f + \rho_b}{\epsilon_0}  \right]=  \rho_f + \rho_b + \vec\nabla ·\vec P = \left[ \rho_b=-\vec\nabla ·\vec P \right]$$
+>>
+>>$$ \Rightarrow\vec \nabla ·\vec D=\rho_f$$
+>>
+>>With this, we proof that the displacement field $\vec D$ depends only on the free charges that we place into the system, ignoring the bound charges completely.
+
+For most materials, the polarization is proportional to the electric field (as we have seen before with $\vec P= \epsilon_0 \chi \vec E$ ), getting $\vec D= \epsilon_0 \epsilon_r \vec E= \epsilon \vec E$ .
+
+As we have seen in the *first equation of thermodynamics*, the electrostatic fields are irrotational and can be written in terms of a scalar potential. We have equipotential surfaces, where we can move along spending no work, and they are always perpendicular to the electric field. 
+
+## 4. Atomic charges
+
+The electric charge is one of the fundamental properties of matter, and helps us to see how particles interact with the electromagnetic force (see [[Elementary charge]]).
+
+>[!abstract]- Polar and non-polar molecules
+>
+> · **Polar** molecules have a permanent dipole moment, even without any external electric field acting on them.
+>
+> · **Non-polar** molecules do not have a dipole moment ($\vec p=0$) unless an external electric field distorts the electron cloud.
+>
+
+### Dipoles in external electric fields
+
+The dipoles in uniform electric fields have a torque rotating it such as $\vec \tau =\vec p \times \vec E$. The electric field tries to align the dipole with itself.
+
+In an inhomogeneous field all dipoles suffer a force $\vec F= \vec p · \vec \nabla \vec E$  

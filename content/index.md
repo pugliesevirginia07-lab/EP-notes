@@ -1,13 +1,13 @@
-# Experimental Physics 2
+# Experimental Physics
 
 >[!info]  
->Experimental Physics 2 notes for IPSP.
+>Experimental Physics notes for IPSP.
 >
 >This website contains notes about the topics discussed in the lectures, definitions, examples, and homework material. 
 >
->Last time updated: 11.07.26
+>Last time updated: 29.09.26
 
-## Main chapters
+## EP 2 notes
 
 > [!todo]- [[Special relativity]]
 > 
@@ -43,9 +43,12 @@
 >
 >
 > [[Examples in thermodynamics]] 
-> 
-> (Future discussion about homework)
 
->[!danger] [[Electrostatics and magnetostatics]]
-> Not finished yet.
+>[!danger]- [[Electrostatics and magnetostatics]]
+> (Not completed yet)
 
+
+## EP 3 notes
+
+> [!danger]-   
+> (In progress)
